@@ -21,6 +21,10 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'react-hooks', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
+    'no-useless-constructor': 'off',
+    'max-classes-per-file': 'off',
+    'class-methods-use-this': 'off',
+    'import/prefer-default-export': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',
