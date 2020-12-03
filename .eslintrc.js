@@ -25,6 +25,8 @@ module.exports = {
     'max-classes-per-file': 'off',
     'class-methods-use-this': 'off',
     'import/prefer-default-export': 'off',
+    '@typescript-eslint/ban-types': 'off',
+    'lines-between-class-members': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',
