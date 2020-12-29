@@ -11,7 +11,7 @@
     "react-dom": "^17.0.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack serve",
     "lint": "eslint src/** --fix",
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "yarn test --watch",
